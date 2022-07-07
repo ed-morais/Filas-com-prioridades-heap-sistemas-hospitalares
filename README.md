@@ -9,4 +9,11 @@ Para enfrentar esse problema, será necessário implementar uma fila prioritári
 ## Solução
 Criação de um sistema para auxiliar a prever a organização da unidade ao longo do dia, evitando superlotações e prevenindo falhas de atendimento, além de contribuir também com a economia financeira, porque evita o desperdício de recursos de urgência em condições onde não há agravamento do quadro clínico dos pacientes.
 
+## Usage
+###### Install clang-7
+    sudo apt install clang-7
+###### Compile program
+    clang-7 -pthread -lm -o main FilaPrioridade.c main.c
 
+###### Open program
+    ./main
