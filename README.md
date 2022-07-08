@@ -14,6 +14,5 @@ Criação de um sistema para auxiliar a prever a organização da unidade ao lon
     sudo apt install clang-7
 ###### Compile program
     clang-7 -pthread -lm -o main FilaPrioridade.c main.c
-
 ###### Open program
     ./main
